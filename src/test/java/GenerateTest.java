@@ -10,7 +10,7 @@ import static junit.framework.TestCase.fail;
  */
 public class GenerateTest {
     @Test
-    public void testGenerateValidIbanForGerman()  {
+    public void testGenerateCSV()  {
         ParametersGoEuro parametersGoEuro = new ParametersGoEuro();
         parametersGoEuro.setCity("Berlin");
         try {
